@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736759" _time="60362" date="06/03/2018" time="16:46:02"/>
+          <LastModified _date="736759" _time="61072" date="06/03/2018" time="16:57:52"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
@@ -35,18 +35,18 @@
             <Column id="10485761" name="name">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="100"/>
+                <Picture id="157" valUnicode="50"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="100"/>
+                <Size id="174" val="50"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="10485762" name="address">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="200"/>
+                <Picture id="157" valUnicode="100"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="200"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -230,6 +230,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="1" id="10485761">
@@ -243,6 +244,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="10485761" id="43"/>
                 <ControlName id="46" val="name"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -256,6 +258,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="3" id="10485763">
@@ -269,6 +272,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="10485762" id="43"/>
                 <ControlName id="46" val="address"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
@@ -282,6 +286,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="5" id="10485765">
@@ -295,6 +300,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="10485763" id="43"/>
                 <ControlName id="46" val="dob"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
@@ -308,6 +314,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="7" id="10485767">
@@ -321,6 +328,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="10485764" id="43"/>
                 <ControlName id="46" val="city"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
@@ -334,6 +342,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="192" _test_id="9" id="10485769">
@@ -347,6 +356,7 @@
                 <Height id="24" val="10"/>
                 <Data FieldID="10485765" id="43"/>
                 <ControlName id="46" val="married"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="5"/>
               </PropertyList>
             </Control>
