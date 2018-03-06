@@ -27,26 +27,26 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736759" _time="60362" date="06/03/2018" time="16:46:02"/>
+          <LastModified _date="736759" _time="61515" date="06/03/2018" time="17:05:15"/>
         </Header>
-        <ItemIsn val="5"/>
+        <ItemIsn val="6"/>
         <Resource>
           <Columns>
             <Column id="10485761" name="name">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="100"/>
+                <Picture id="157" valUnicode="50"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="100"/>
+                <Size id="174" val="50"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="10485762" name="address">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="200"/>
+                <Picture id="157" valUnicode="100"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="200"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -69,6 +69,15 @@
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_LOGICAL" id="1"/>
                 <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="10485766" name="family">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="50"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="50"/>
+                <_Flip id="194"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -210,6 +219,17 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="10485766" FlowIsn="10485768" id="10485766">
+                  <Column val="10485766"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
@@ -230,6 +250,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="1" id="10485761">
@@ -242,7 +263,8 @@
                 <Width id="23" val="259"/>
                 <Height id="24" val="10"/>
                 <Data FieldID="10485761" id="43"/>
-                <ControlName id="46" val="name"/>
+                <ControlName id="46" val="name_B"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -256,6 +278,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="3" id="10485763">
@@ -268,7 +291,8 @@
                 <Width id="23" val="259"/>
                 <Height id="24" val="10"/>
                 <Data FieldID="10485762" id="43"/>
-                <ControlName id="46" val="address"/>
+                <ControlName id="46" val="address_B"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
@@ -282,6 +306,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="5" id="10485765">
@@ -294,7 +319,8 @@
                 <Width id="23" val="259"/>
                 <Height id="24" val="10"/>
                 <Data FieldID="10485763" id="43"/>
-                <ControlName id="46" val="dob"/>
+                <ControlName id="46" val="dob_B"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
@@ -308,6 +334,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="7" id="10485767">
@@ -320,7 +347,8 @@
                 <Width id="23" val="259"/>
                 <Height id="24" val="10"/>
                 <Data FieldID="10485764" id="43"/>
-                <ControlName id="46" val="city"/>
+                <ControlName id="46" val="city_B"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
@@ -334,6 +362,7 @@
                 <Font id="50" val="1"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="192" _test_id="9" id="10485769">
@@ -346,7 +375,8 @@
                 <Width id="23" val="31"/>
                 <Height id="24" val="10"/>
                 <Data FieldID="10485765" id="43"/>
-                <ControlName id="46" val="married"/>
+                <ControlName id="46" val="married_B"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="5"/>
               </PropertyList>
             </Control>
